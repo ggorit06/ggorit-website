@@ -1,8 +1,23 @@
 // home page 
 
-document.querySelector('.hamburger-menu').addEventListener('click', () => {
-    document.querySelector('.nav-wrapper').classList.toggle('change');
+// Select the hamburger menu button and navigation links
+const hamburgerMenu = document.querySelector('.hamburger-menu');
+const navLinks = document.querySelectorAll('.nav-link');
+
+// Add an event listener to the hamburger menu button
+hamburgerMenu.addEventListener('click', () => {
+  // Toggle the "change" class on the navigation wrapper element
+  document.querySelector('.nav-wrapper').classList.toggle('change');
 });
+
+// Add event listeners to each navigation link
+navLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    // Remove the "change" class from the navigation wrapper element
+    document.querySelector('.nav-wrapper').classList.remove('change');
+  });
+});
+
 
 
 
