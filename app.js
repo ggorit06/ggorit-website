@@ -21,7 +21,6 @@ navLinks.forEach(link => {
 
 
 
-
 // for Skills page 
 
 const heading = 'Array of Skills Stacks';
@@ -63,7 +62,7 @@ projects.forEach((project, i) => {
         project.firstElementChild.style.top = "2rem";
     });
 
-    // Big Project Image
+    /* Big Project Image
     project.addEventListener("click", () => {
         const bigImgWrapper = document.createElement("div");
         bigImgWrapper.className = "project-img-wrapper";
@@ -78,7 +77,7 @@ projects.forEach((project, i) => {
 
         document.removeEventListener("scroll" , scrollFn);
 
-      //
+      */
 
         projectHideBtn.classList.add("change");
 
@@ -97,7 +96,6 @@ projects.forEach((project, i) => {
     // End of Big Project Image
 
     i >= 6 && (project.style.cssText = "display: none; opacity: 0");
-});
 
 // Projects Button
 const projectSection = document.querySelector(".project-section");
