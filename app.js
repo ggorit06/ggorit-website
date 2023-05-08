@@ -21,6 +21,7 @@ navLinks.forEach(link => {
 
 
 
+
 // for Skills page 
 
 const heading = 'Array of Skills Stacks';
