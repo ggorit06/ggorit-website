@@ -1392,7 +1392,7 @@ footer {
 
 
 
-@media(max-width: 1200px) {
+@media(prefers-reduced-motion: reduce),(max-width: 1200px) {
     .top-nav {
         background: #010101;
     }
@@ -1427,7 +1427,7 @@ footer {
 
 
 
-@media(max-width: 900px) {
+@media(prefers-reduced-motion: reduce),(max-width: 900px) {
     .banner-btn {
         width: 300px;
         height: 80px;
@@ -1510,7 +1510,7 @@ footer {
 }
 
 
-@media(max-width: 768px) {
+@media(prefers-reduced-motion: reduce),(max-width: 768px) {
     .nav-list {
         width: 60%;
     }
@@ -1580,7 +1580,7 @@ footer {
 
 }
 
-@media(max-width: 550px) {
+@media(prefers-reduced-motion: reduce),(max-width: 550px) {
     .banner-btn {
         width: 280px;
         height: 70px;
@@ -1631,7 +1631,7 @@ footer {
       }
 }
 
-@media(max-width: 480px) {
+@media(prefers-reduced-motion: reduce),(max-width: 480px) {
     .banner-btn {
         width: 260px;
         height: 60px;
