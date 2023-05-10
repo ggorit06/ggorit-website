@@ -23,7 +23,6 @@ html {
 
 }
 .home-banner {
-    width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -48,7 +47,6 @@ html {
     font-weight: 400;
     color:  #351d77;
     text-shadow: -2px -2px 2px #fff;
-    margin-bottom: 20px;
     animation: moveToRight 2s;
     text-transform: uppercase;
     font-weight: 600;
@@ -157,19 +155,19 @@ html {
 
  .banner-btn {
     width: 300px;
-    height: 80px;
+    height: 70px;
     background: linear-gradient(#ec91c4, #e9b14c);
     border: none;
     outline: none;
-    border-radius: 45%;
+    border-radius: 30%;
     font-family: 'Lexend Tera', sans-serif;
     font-size: 32px;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #eeefda;
     cursor: pointer;
-    padding-bottom: 20px;
-    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 5px;
     text-decoration: none;
     
 }
@@ -1455,25 +1453,35 @@ footer {
 
 
 @media(prefers-reduced-motion: reduce),(max-width: 900px) {
+    .body {
+        width: 810px;
+    }
+
     .banner-btn {
         width: 300px;
         height: 80px;
         font-size: 30px;
         text-decoration: none;
     }
+ 
     .home-banner h1 {
-        font-size: 42px;
+        font-size: 40px;
+        font-family: 'Alata', sans-serif;;
     }
     .home-banner p {
         font-size: 12px;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         flex-wrap:wrap ;
-        align-content: flex-end;
+        align-content: center;
     }
 
     .home-banner {
-        left:45%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .top-nav {
         height: 25vh;
@@ -1488,8 +1496,6 @@ footer {
 
     .nav-list {
         width: 70%;
-        flex-wrap: wrap;
-        align-content: center;
     }
     .nav-link {
         margin: 3px 0;
@@ -1534,10 +1540,17 @@ footer {
         gap: 10px;
         align-items: center;
     }
+    .back-to-top a{
+        left: 35%;
+
+    }
 }
 
 
 @media(prefers-reduced-motion: reduce),(max-width: 768px) {
+    body {
+        width: 700px;
+    }
     .nav-list {
         width: 60%;
     }
@@ -1604,15 +1617,23 @@ footer {
         margin: 0;
         text-align: center;
     }
-
+    .div10 {
+        font-size: 30px;
+    }
 }
 
 @media(prefers-reduced-motion: reduce),(max-width: 550px) {
+    .body {
+        width: 500px;
+    }
+    
+    
     .banner-btn {
         width: 280px;
         height: 70px;
         font-size: 25px;
     }
+
 
     .home-banner h1 {
         font-size: 50px;
@@ -1626,7 +1647,11 @@ footer {
         height: 70px;
         left: 30px;
     }
+  
+    .nav-list {
+        width: 40%;
 
+    }
     .top-nav {
         height: 30vh;
         top: -30vh;
@@ -1646,6 +1671,10 @@ footer {
         width: 60px;
         height: 60px;
     }
+    .heading {
+        font-size: 40px;
+        width: 400px;
+    }
 
     .contact-card {
         width: 300px;
@@ -1656,20 +1685,36 @@ footer {
       .contact-details p {
         font-size: 10px;
       }
+
+      .project {
+        width: 300px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .project-title {
+        height : 300px;
+      }
+
 }
 
-@media(prefers-reduced-motion: reduce),(max-width: 480px) {
+@media(prefers-reduced-motion: reduce),(max-width: 400px) {
+    .body {
+        width: 380px;
+    }
     .banner-btn {
         width: 260px;
         height: 60px;
     }
 
     .home-banner h1 {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .home-banner h2 {
-        font-size: 16px;
+        font-size: 14px;
     }
     .home-banner p {
         font-size: 10px;
@@ -1686,7 +1731,7 @@ footer {
     }
 
     .nav-list {
-        width: 50%;
+        width: 40%;
     }
 
     .about-me-container img {
@@ -1704,11 +1749,12 @@ footer {
     }
 
 .about-me-container h3 {
-    font-size: 28px;
+    font-size: 20px;
 }
 
 .about-me-container p {
-    font-size: 16px;
+    font-size: 12px;
+    margin: 2px;
 }
 
 .about-page h2 {
@@ -1730,9 +1776,48 @@ footer {
         transform-origin: top center;
         animation: imgAnim 1s 1s both;
       }
+      .project {
+        width: 300px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
 
+     .div3 {
+        font-size: 14px;
+     }
 
+     .div5 {
+        font-size: 14px;
+
+     }
+
+     .div5 span {
+        font-size: 18px;
+
+     }
+
+     .div7 p {
+        font-size: 14px;
+     }
+
+     .div8 h3 {
+        font-size: 18px;
+
+     }
+
+     .div9 {
+        font-size: 14px;
+     }
+
+     .div9 span {
+        font-size: 18px;
+     }
 }
+
+
+
 
 
 
