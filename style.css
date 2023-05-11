@@ -1192,7 +1192,7 @@ html {
     right: 100px;
     width: 200px;
     height: 60px;
-    background-color: #b4c7d9;
+    background-color: #d4d3e9;
     color:#351d77;
     border-radius: 50px;
     border: none;
@@ -1215,10 +1215,11 @@ html {
   
   .card-contact {
     background-color: #e9b14c;
-    color: #fff;
+    color: #351d77;
     padding: 10px 10px;
     border-radius: 0 0 5px 5px;
     text-align: center;
+    font-weight: 600;
   }
   
   
@@ -1234,7 +1235,7 @@ html {
   
   
   .card-social {
-    background-color: #e8f0e4;
+    background-color: #fff;
     padding: 15px;
     margin: 20px 0;
     border-radius: 3px;
