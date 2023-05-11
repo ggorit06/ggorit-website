@@ -1491,8 +1491,8 @@ footer {
     .contact-card {
         width: 100%;
     }
-    .card-social email p {
-        font-size: 14px;
+    .contact-details p {
+        font-family: 'Slabo 27px', serif; 
     }
      .div5 span {
         font-size: 18px;
