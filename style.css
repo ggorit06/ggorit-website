@@ -1164,7 +1164,7 @@ html {
   }
   
   .contact-info {
-    width: 80%;
+    width: 100%;
     font-family: 'Slabo 27px', serif;
     letter-spacing: 2px;
     color: #152a3e;
@@ -1404,7 +1404,7 @@ footer {
         font-family: 'Alata', sans-serif;;
     }
     .home-banner p {
-        font-size: 12px;
+        font-size: 14px;
         display: flex;
         flex-direction: column;
         flex-wrap:wrap ;
@@ -1496,6 +1496,7 @@ footer {
         align-items: center;
         flex-wrap: wrap;
         justify-content: center;
+        left: 80%;
     }
 
     .icon-link {
@@ -1627,7 +1628,7 @@ footer {
     }
 
     .contact-card {
-        width: 300px;
+        width: 350px;
         margin-top: 50px;
         margin-bottom: 50px;
       }
@@ -1660,6 +1661,11 @@ footer {
         align-items: center;
         flex-wrap: wrap;
         justify-content: center;
+        left: 90%;
+    }
+
+    .btn-wrapper {
+        left: 90%;
     }
 
     .banner-btn {
