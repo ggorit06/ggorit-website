@@ -1382,6 +1382,7 @@ footer {
 
     .icons {
         width: 60%;
+        top: 70%;
         display: flex;
         justify-content: center;
         align-content: center;
