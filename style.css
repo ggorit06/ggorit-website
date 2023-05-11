@@ -1485,9 +1485,15 @@ footer {
     }
 
     .contact-card-bio {
-        width: 85%;
+        width: 90%;
     }
 
+    .contact-card {
+        width: 100%;
+    }
+    .card-social email p {
+        font-size: 14px;
+    }
      .div5 span {
         font-size: 18px;
 
