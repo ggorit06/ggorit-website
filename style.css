@@ -1164,7 +1164,7 @@ html {
   }
   
   .contact-info {
-    width: 60%;
+    width: 80%;
     font-family: 'Slabo 27px', serif;
     letter-spacing: 2px;
     color: #152a3e;
@@ -1396,6 +1396,9 @@ footer {
         text-decoration: none;
     }
  
+    .banner {
+        width: 90%;
+    }
     .home-banner h1 {
         font-size: 40px;
         font-family: 'Alata', sans-serif;;
