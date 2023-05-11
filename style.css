@@ -1382,7 +1382,6 @@ footer {
 
     .icons {
         width: 60%;
-        top: 70%;
         display: flex;
         justify-content: center;
         align-content: center;
@@ -1402,7 +1401,7 @@ footer {
 
     .bottom-nav {
         bottom: -75vh;
-        height: 80%;
+        height: 75%;
     }
 
     .nav-list {
