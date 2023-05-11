@@ -213,7 +213,7 @@ html {
     background-size: cover;
     position: fixed;
     top: -15vh;
-    z-index: 50;
+    z-index: 110;
     transition: top .4s;
 }
 
