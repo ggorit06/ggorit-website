@@ -23,7 +23,6 @@ html {
 
 }
 .home-banner {
-    width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -48,7 +47,6 @@ html {
     font-weight: 400;
     color:  #351d77;
     text-shadow: -2px -2px 2px #fff;
-    margin-bottom: 20px;
     animation: moveToRight 2s;
     text-transform: uppercase;
     font-weight: 600;
@@ -157,19 +155,19 @@ html {
 
  .banner-btn {
     width: 300px;
-    height: 80px;
+    height: 70px;
     background: linear-gradient(#ec91c4, #e9b14c);
     border: none;
     outline: none;
-    border-radius: 45%;
+    border-radius: 30%;
     font-family: 'Lexend Tera', sans-serif;
     font-size: 32px;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #eeefda;
     cursor: pointer;
-    padding-bottom: 20px;
-    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 5px;
     text-decoration: none;
     
 }
@@ -871,23 +869,19 @@ heading::after {
     color: #eee;
 
 }
-
 .project img {
     width: 80%;
     object-fit: cover;
     position: absolute;
     top: 20px;
-    opacity: 0.5;
     pointer-events: none;
-    transition: top 4s ease-in-out, 
-    opacity 0.25s ease-out;
+    transition: top 4s ease-out;
 }
 
-.project:nth-child(odd):hover img {
+.project:nth-child(odd):active img {
     animation: oddImgAnim 4s 0.2s;
     opacity: 1;
 }
-
 
 @keyframes oddImgAnim {
     0% {
@@ -905,7 +899,7 @@ heading::after {
     }
 }
 
-.project:nth-child(even):hover img {
+.project:nth-child(even):active img {
     animation: evenImgAnim 4s 0.2s;
     opacity: 1;
 }
@@ -1145,7 +1139,7 @@ heading::after {
   
   .contact-card-bio {
     background-color: #ec91c4;
-    padding: 30px 30px 80px 30px;
+    padding: 30px 30px 40px 30px;
     display: flex;
     border-radius: 10px 10px 0 0;
     position: relative;
@@ -1154,12 +1148,11 @@ heading::after {
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    align-items: flex-end;
   }
   
   .img-wrapper {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     margin-right: 30px;
   }
   
@@ -1171,7 +1164,7 @@ heading::after {
   }
   
   .contact-info {
-    width: 50%;
+    width: 60%;
     font-family: 'Slabo 27px', serif;
     letter-spacing: 2px;
     color: #152a3e;
@@ -1183,13 +1176,14 @@ heading::after {
     font-weight: 600;
     letter-spacing: 2px;
     margin-bottom: 10px;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 2px rgba(39, 29, 29, 0.3);
   }
   
   .contact-info p {
     font-size: 20px;
     font-weight: 600;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
   }
   
   .card-btn {
@@ -1208,58 +1202,25 @@ heading::after {
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
     outline: none;
     cursor: pointer;
-    transition: all 0.5s;
+   
   }
   
-  .card-btn .change {
-    width: 60px;
-    right: 30px;
-    bottom: -30px;
-    border-radius: 50%;
-  }
-  
-  .card-btn-contact {
-    transition: all 0.5s 0.1s;
-  }
   
   .card-btn-contact,
   .card-btn i {
     width: 100%;
     position: absolute;
     left: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .change .card-btn-contact {
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.1s;
-  }
-  
-  .card-btn i {
-    opacity: 0;
-    visibility: hidden;
-  }
-  
-  .change .card-btn i {
-    opacity: 1;
-    visibility: visible;
-    transition: all 0.5s;
   }
   
   .card-contact {
     background-color: #e9b14c;
     color: #fff;
-    padding: 25px 20px;
+    padding: 10px 10px;
     border-radius: 0 0 5px 5px;
-    transform: translateY(-100%);
-    transition: all 0.5s;
   }
   
-  .change .card-contact {
-    transform: translateY(0);
-  }
+  
   
   .card-contact h4 {
     font-family: 'Lexend Tera', sans-serif;
@@ -1268,14 +1229,8 @@ heading::after {
     text-transform: uppercase;
     letter-spacing: 1px;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-    transform: scale(0);
-    transform-origin: left;
-    transition: all 0.5s;
   }
   
-  .change .card-contact h4 {
-    transform: scale(1);
-  }
   
   .card-social {
     background-color: #e8f0e4;
@@ -1285,34 +1240,9 @@ heading::after {
     display: flex;
     align-items: center;
     cursor: pointer;
-    transform: translateY(-50%);
-    opacity: 0;
-    visibility: hidden;
+    flex: 1;
   }
   
-  .email {
-    transition: all 0.5s 0.3s;
-  }
-  
-  .fb {
-    transition: all 0.5s 0.5s;
-  }
-  
-  .linkedin {
-    transition: all 0.5s 0.7s;
-  }
-  .github {
-    transition: all 0.5s 0.8s;
-  }
-  .resume {
-    transition: all 0.5s 0.9s;
-  }
-
-  .change .card-social {
-    transform: translateY(0);
-    opacity: 1;
-    visibility: visible;
-  }
   
   .contact-icon-wrapper {
     width: 40px;
@@ -1455,25 +1385,35 @@ footer {
 
 
 @media(prefers-reduced-motion: reduce),(max-width: 900px) {
+    .body {
+        width: 810px;
+    }
+
     .banner-btn {
         width: 300px;
         height: 80px;
         font-size: 30px;
         text-decoration: none;
     }
+ 
     .home-banner h1 {
-        font-size: 42px;
+        font-size: 40px;
+        font-family: 'Alata', sans-serif;;
     }
     .home-banner p {
         font-size: 12px;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         flex-wrap:wrap ;
-        align-content: flex-end;
+        align-content: center;
     }
 
     .home-banner {
-        left:45%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .top-nav {
         height: 25vh;
@@ -1488,8 +1428,6 @@ footer {
 
     .nav-list {
         width: 70%;
-        flex-wrap: wrap;
-        align-content: center;
     }
     .nav-link {
         margin: 3px 0;
@@ -1534,12 +1472,27 @@ footer {
         gap: 10px;
         align-items: center;
     }
+    .back-to-top a{
+        left: 35%;
+
+    }
 }
 
 
 @media(prefers-reduced-motion: reduce),(max-width: 768px) {
+    body {
+        width: 700px;
+    }
     .nav-list {
         width: 60%;
+    }
+
+    .home-banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .icon-link {
@@ -1604,15 +1557,30 @@ footer {
         margin: 0;
         text-align: center;
     }
-
+    .div10 {
+        font-size: 30px;
+    }
 }
 
 @media(prefers-reduced-motion: reduce),(max-width: 550px) {
+    .body {
+        width: 500px;
+    }
+    
+    .home-banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     .banner-btn {
         width: 280px;
         height: 70px;
         font-size: 25px;
     }
+
 
     .home-banner h1 {
         font-size: 50px;
@@ -1626,7 +1594,11 @@ footer {
         height: 70px;
         left: 30px;
     }
+  
+    .nav-list {
+        width: 40%;
 
+    }
     .top-nav {
         height: 30vh;
         top: -30vh;
@@ -1646,6 +1618,10 @@ footer {
         width: 60px;
         height: 60px;
     }
+    .heading {
+        font-size: 40px;
+        width: 400px;
+    }
 
     .contact-card {
         width: 300px;
@@ -1656,20 +1632,44 @@ footer {
       .contact-details p {
         font-size: 10px;
       }
+
+      .project {
+        width: 300px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .project-title {
+        height : 300px;
+      }
+
 }
 
-@media(prefers-reduced-motion: reduce),(max-width: 480px) {
+@media(prefers-reduced-motion: reduce),(max-width: 400px) {
+    .body {
+        width: 380px;
+    }
+    .home-banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
     .banner-btn {
         width: 260px;
         height: 60px;
     }
 
     .home-banner h1 {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .home-banner h2 {
-        font-size: 16px;
+        font-size: 14px;
     }
     .home-banner p {
         font-size: 10px;
@@ -1686,7 +1686,7 @@ footer {
     }
 
     .nav-list {
-        width: 50%;
+        width: 40%;
     }
 
     .about-me-container img {
@@ -1704,11 +1704,12 @@ footer {
     }
 
 .about-me-container h3 {
-    font-size: 28px;
+    font-size: 20px;
 }
 
 .about-me-container p {
-    font-size: 16px;
+    font-size: 14px;
+    margin: 2px;
 }
 
 .about-page h2 {
@@ -1730,9 +1731,48 @@ footer {
         transform-origin: top center;
         animation: imgAnim 1s 1s both;
       }
+      .project {
+        width: 300px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
 
+     .div3 {
+        font-size: 14px;
+     }
 
+     .div5 {
+        font-size: 14px;
+
+     }
+
+     .div5 span {
+        font-size: 18px;
+
+     }
+
+     .div7 p {
+        font-size: 14px;
+     }
+
+     .div8 h3 {
+        font-size: 18px;
+
+     }
+
+     .div9 {
+        font-size: 14px;
+     }
+
+     .div9 span {
+        font-size: 18px;
+     }
 }
+
+
+
 
 
 

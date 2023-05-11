@@ -179,31 +179,8 @@ const scrollFn = () => {
   }; Comment//
   
 
-
-  // Contact 
-
-  const page = document.querySelector(".contact-wrapper");
-  const dropdown = document.querySelector(".contact-container");
-  
-  document.querySelector(".card-btn").addEventListener("click", () => {
-    dropdown.classList.toggle("change");
-  
-    if (dropdown.classList.contains("change")) {
-      page.style.height = "100%";
-    } else {
-      page.style.height = "auto";
-    }
-  });
-  
-  window.addEventListener("resize", () => {
-    if (!dropdown.classList.contains("change")) {
-      page.style.height = "auto";
-    }
-  });
-
   //back to top
 
-  // Get the button
 var backToTopButton = document.querySelector('.back-to-top');
 
 // Show the button when the user scrolls down 20px from the top of the document
