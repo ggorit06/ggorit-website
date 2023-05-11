@@ -1395,17 +1395,18 @@ footer {
     }
 
     .top-nav {
-        height: 25vh;
+        height: auto;
         top: -25vh;
         font-size: 25px;
     }
 
     .bottom-nav {
         bottom: -75vh;
+        height: 80%;
     }
 
     .nav-list {
-        width: 70%;
+        width: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
