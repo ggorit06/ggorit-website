@@ -1382,7 +1382,11 @@ footer {
 
     .icons {
         width: 60%;
-        left: 30%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
 
     .logo img {
@@ -1402,6 +1406,11 @@ footer {
 
     .nav-list {
         width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
     .nav-link {
         margin: 3px 0;
