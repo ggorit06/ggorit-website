@@ -613,7 +613,7 @@ html {
     white-space: pre-wrap;
 }
 
-heading::after {
+.heading::after {
     content: '';
     width: 5px;
     height: 55px;
@@ -1658,7 +1658,7 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
     }
-    
+
     .banner-btn {
         width: 260px;
         height: 60px;
@@ -1770,7 +1770,6 @@ footer {
         font-size: 18px;
      }
 }
-
 
 
 
