@@ -1,5 +1,3 @@
-// home page 
-
 // Select the hamburger menu button and navigation links
 const hamburgerMenu = document.querySelector('.hamburger-menu');
 const navLinks = document.querySelectorAll('.nav-link');
@@ -17,6 +15,7 @@ navLinks.forEach(link => {
     document.querySelector('.nav-wrapper').classList.remove('change');
   });
 });
+
 
 
 
