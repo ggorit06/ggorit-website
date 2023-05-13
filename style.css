@@ -1239,7 +1239,7 @@ footer {
     }
 
     .about-me-wrapper {
-        width: 90%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         height: 100%;
@@ -1259,9 +1259,6 @@ footer {
     }
 
 
-    .div10 i {
-        margin-right: 10px;
-    }
 
     .skills-container {
         display: flex;
@@ -1286,7 +1283,7 @@ footer {
     }
 
     .project {
-        width: 100%;
+        width: 90%;
         margin-bottom: 10px;
         height: 100%;
     }
