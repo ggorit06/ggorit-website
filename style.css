@@ -1304,7 +1304,14 @@ footer {
     .contact-details p {
         font-family: 'Slabo 27px', serif; 
     }
-     
+    .contact-container {
+        width: 100%;
+
+    }
+
+    .project-content-wrapper {
+        width: 100%;
+    }
 }
 
 @media(prefers-reduced-motion: reduce),(min-width: 768px) and (max-width: 1366px) {
