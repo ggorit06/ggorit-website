@@ -1311,6 +1311,7 @@ footer {
 
     .project-content-wrapper {
         width: 100%;
+        box-sizing: border-box;
     }
 }
 
