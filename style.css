@@ -712,7 +712,6 @@ html {
 
 .project-title {
     width: 40%;
-    height: 18vw;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
