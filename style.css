@@ -349,6 +349,7 @@ html {
 /***** About Me Page *****/
 
 .about-container {
+    width: 100%;
     background-color: #EEE4F0;
     display: flex;
     flex-direction: row;
@@ -371,6 +372,9 @@ html {
 
 }
 
+.about-me-img img {
+    width: 100%;
+}
 
 .about-me-wrapper h2 {
     font-size: 40px;
@@ -400,6 +404,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    box-sizing: content-box;
 
 
 }
@@ -1262,7 +1267,14 @@ footer {
     }
 
     .about-me-container {
-        width: 90%;
+        width: 100%;
+    }
+    .about-me-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+
     }
 
     .about-me-img {
@@ -1271,7 +1283,7 @@ footer {
     }
 
     .about-info-wrapper {
-        width: 90%;
+        width: 95%;
         height: 100%;
     }
 
