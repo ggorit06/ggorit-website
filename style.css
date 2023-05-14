@@ -380,7 +380,7 @@ html {
 }
 
 .about-me-wrapper h2 {
-    font-size: 2.5vw;
+    font-size: 2.5vh;
     font-family: 'Lexend Tera', sans-serif;
     letter-spacing: 2px;
     text-align: center;
@@ -389,7 +389,7 @@ html {
 
 }
 .about-me-wrapper h3 {
-    font-size: 2vw;
+    font-size: 2vh;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
     margin: 20px;
@@ -469,7 +469,7 @@ html {
 
 .skill-header h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 3.5vw;
+    font-size: 3.5vh;
     letter-spacing: 2px;
     text-transform: uppercase;
     display: inline-block !important;
@@ -482,7 +482,7 @@ html {
 
 .heading {
     color: #152a3e;
-    font-size: 2.5vw;
+    font-size: 2.5vh;
     position: relative;
     top:10%;
     left: 50%;
@@ -580,7 +580,7 @@ html {
 
 .card h2 {
     font-family: 'Slabo 27px', serif;
-    font-size: 24px;
+    font-size: 1.6vh;
     color: #555;
     margin: 10px;
 }
@@ -591,7 +591,7 @@ html {
     list-style-type: none;
     padding: 5px;
     margin-bottom: 10px;
-    font-size: 2.5vw;
+    font-size: 2.8vh;
     font-family: 'Lexend Tera', sans-serif;
 }
 
@@ -613,7 +613,7 @@ html {
 
 .soft-skill-lists li {
     padding-bottom: 5px;
-    font-size: 1.5vw;
+    font-size: 1.7vh;
 }
 
 .software-lists {
@@ -629,7 +629,7 @@ html {
 
 .software-lists li {
     padding-bottom: 5px;
-    font-size: 1.5vw;
+    font-size: 1.7vh;
 }
 
 
@@ -649,7 +649,7 @@ html {
 
 .project-heading {
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.4vw;
+    font-size: 3.2vh;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #eeefda;
@@ -734,14 +734,14 @@ html {
     font-family: 'Lexend Tera', sans-serif;
     text-align: center;
     font-weight: 600;
-    font-size: 1.7vw;
+    font-size: 1.7vh;
 }
 
 .project-title p {
     font-weight: 600;
     font-family: 'Slabo 27px', serif;
     letter-spacing: 1px;
-    font-size: 1vw;
+    font-size: 1.4vh;
     text-align: left;
     padding: 10px;
 
@@ -928,7 +928,7 @@ html {
   }
   
   .contact-info h3 {
-    font-size: 2.4vw;
+    font-size: 3vw;
     font-weight: 600;
     letter-spacing: 2px;
     margin-bottom: 10px;
@@ -937,9 +937,9 @@ html {
   }
   
   .contact-info p {
-    font-size: 2.2vw;
+    font-size: 2.2vh;
     font-weight: 600;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
@@ -986,7 +986,7 @@ html {
   
   .card-contact h4 {
     font-family: 'Lexend Tera', sans-serif;
-    font-size: 1.9vw;
+    font-size: 1.9vh;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -1005,18 +1005,25 @@ html {
     flex: 1;
   }
   
-  
+  .card-social a {
+    font-size: 1.9vh;
+  }
+  .contact-details a {
+    font-size: 1.9vh;
+  }
+
   .contact-icon-wrapper {
-    width: 15%;
-    height: 15%;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 20px;
-    font-size: 2.3vw;
   }
   
+  .contact-icon-wrapper i {
+    font-size: 1.9vh;
+  }
+
   .email .icon-wrapper {
     background-color: #dd4b39;
   }
