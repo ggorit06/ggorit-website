@@ -392,7 +392,7 @@ html {
 
 .about-info-wrapper {
     width: 50%;
-    height: 100vh;
+    height: auto;
     padding: 20px;
     margin: auto;
     background-color: #E8F0E4;
