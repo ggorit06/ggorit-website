@@ -1007,9 +1007,6 @@ html {
   .card-social a {
     font-size: 1.9vh;
   }
-  .contact-details a {
-    font-size: 1.9vh;
-  }
 
   .contact-icon-wrapper {
     border-radius: 50%;
@@ -1020,7 +1017,7 @@ html {
   }
   
   .contact-icon-wrapper i {
-    font-size: 1.9vh;
+    font-size: 18px;
   }
 
   .email .icon-wrapper {
@@ -1042,7 +1039,7 @@ html {
   
   .contact-details h4 {
     font-family: 'Lexend Tera', sans-serif;
-    font-size: 1.9vw;
+    font-size: 1.9vh;
     letter-spacing: 1px;
     margin-bottom: 5px;
   }
@@ -1061,7 +1058,7 @@ html {
   
   .contact-details p {
     font-family: 'Lexend Tera', sans-serif;
-    font-size: 1.8vw;
+    font-size: 1.8vh;
     color: #444;
     letter-spacing: 1px;
   }
