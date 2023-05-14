@@ -680,7 +680,6 @@ html {
 .project {
     width: 40%;
     height: 100%;
-    overflow: hidden;
     background-color: #1A1B25;
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -751,11 +750,12 @@ html {
 
 .project-title a {
     color: #eee;
+    font-size: 1.5vw;
 
 }
 .project img {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -886,7 +886,7 @@ html {
     margin-top: 50px;
     margin-bottom: 50px;
     z-index: 3;
-    padding: 50px;
+    padding: 20px;
     
   }
   
@@ -1208,6 +1208,9 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .card {
+        width: 80%;
     }
 
     .project {
