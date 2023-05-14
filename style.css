@@ -413,7 +413,7 @@ html {
 }
 
 .about-info-wrapper h2 {
-    font-size: 2.4vw;
+    font-size: 2.5vh;
     font-family: 'Lexend Tera', sans-serif;
     letter-spacing: 2px;
     text-align: center;
@@ -426,15 +426,14 @@ html {
 
 .about-info-wrapper {
     font-family: 'Lexend Tera', sans-serif;
-    font-size: 0.9vw;
     color: #351d77;
-    letter-spacing: -1px;
     line-height: 3;
+
 
 }
 
-.about-info-wrapper span {
-    font-family: 1vw;
+.about-section-1 span {
+    font-family: 1.8vh;
     text-transform: uppercase;
     font-weight: 600;
     color: black;
@@ -442,6 +441,9 @@ html {
 .about-section-1 p {
     padding-bottom: 30px;
     padding-left: 20px;
+    font-size: 1.6vh;
+    letter-spacing: -1px;
+
 }
 
 .about-section-2 p {
