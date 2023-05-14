@@ -1186,11 +1186,6 @@ footer {
         flex-wrap: wrap;
         height: 100%;
     }
-    .about-info-wrapper p {
-        font-size: 16px;
-    }
-
-
 
     .skills-container {
         display: flex;
@@ -1201,7 +1196,6 @@ footer {
     }
 
     .heading {
-        font-size: 40px;
         width: 100%;
         letter-spacing: 2px;
         text-align: center;
@@ -1249,11 +1243,7 @@ footer {
 
 @media(prefers-reduced-motion: reduce),(min-width: 768px) and (max-width: 1024px) {
 
-    .home-banner h1 {
-        font-size: 60px;
-    }
     .home-banner p {
-        font-size: 18px;
         margin-bottom: 50px;
     }
 
