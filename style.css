@@ -1170,6 +1170,10 @@ footer {
         height: 100%;
 
     }
+
+    .about-me-wrapper {
+        text-align: center;
+    }
    
 
     .about-me-wrapper img {
