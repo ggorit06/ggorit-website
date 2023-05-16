@@ -112,7 +112,7 @@ html {
 .hamburger-menu {
     width: 35px;
     height: 30px;
-    background-color: rgba(255, 255, 255,) #fff;
+    background-color: rgba(255, 255, 255,);
     opacity: 0.8;
     position: fixed;
     top: 40px;
