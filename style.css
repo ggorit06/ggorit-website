@@ -303,13 +303,13 @@ html {
 }
 .about-me-img {
     width: 50%;
-    margin: auto;
     text-align: center;
 
 }
 
 .about-me-img img {
     width: 100%;
+    padding-bottom: 50px;
 }
 
 .about-me-wrapper h2 {
