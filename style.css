@@ -35,7 +35,7 @@ html {
 }
 
 .home-banner h1 {
-    font-size: 3.0rem;
+    font-size: 3.5rem;
     color: #351d77;
     font-weight: 600;
     margin-bottom: 30px;
@@ -359,7 +359,7 @@ html {
 .about-info-wrapper {
     font-family: 'Lexend Tera', sans-serif;
     color: #351d77;
-    line-height: 3;
+    line-height: 1.5;
     text-align: left;
 
 
@@ -785,8 +785,8 @@ html {
   
   .contact-info {
     width: 100%;
-    font-family: 'Slabo 27px', serif;
-    letter-spacing: 2px;
+    font-family: 'Lexend Tera', sans-serif;
+    letter-spacing: -1px;
     color: #152a3e;
     text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
   }
@@ -799,14 +799,21 @@ html {
     text-shadow: 2px 2px 2px rgba(39, 29, 29, 0.3);
     text-align: center;
   }
-  
+  .contact-info h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
   .contact-info p {
     font-size: 1.25rem;
     font-weight: 600;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     margin-top: 10px;
     margin-bottom: 10px;
-    text-align: center;
+    
+    
   }
   
   .card-btn {
@@ -904,7 +911,7 @@ html {
   
   .contact-details h4 {
     font-family: 'Lexend Tera', sans-serif;
-    font-size: 1.9rem;
+    font-size: 1.75rem;
     letter-spacing: 1px;
     margin-bottom: 5px;
   }
@@ -925,7 +932,7 @@ html {
     font-family: 'Lexend Tera', sans-serif;
     font-size: 1.25rem;
     color: #444;
-    letter-spacing: 1px;
+    letter-spacing: -1px;
   }
   
   .card-social span {
@@ -985,6 +992,26 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    .home-banner h1 {
+        font-size: 2.8rem;
+        letter-spacing: -1px;
+    }
+
+    .home-banner h2 {
+        font-size: 2.0rem;
+    }
+
+    .home-banner p {
+        font-size: 1.25rem;
+    }
+
+    .banner-btn {
+        font-size: 1.25rem;
+        letter-spacing: 1px;
+    }
+
+
    
 
     .logo {
@@ -996,14 +1023,6 @@ footer {
         position:fixed ;
     }
 
-    .icons {
-        width: 60%;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
 
     .logo img {
         width: 40%;
@@ -1045,11 +1064,18 @@ footer {
     .about-me-wrapper {
         text-align: center;
     }
+
+    .about-me-wrapper h2 {
+        font-size: 1.7rem;
+    }
+    .about-me-wrapper h3 {
+        font-size: 1.5rem;
+    }
    
 
     .about-me-wrapper img {
         width: 100%;
-        margin: 0;
+        margin: 20px;
     }
 
     .about-info-wrapper {
@@ -1096,18 +1122,24 @@ footer {
     }
 
     .contact-card-bio {
-        width: 90%;
+        width: 100%;
     }
 
     .contact-card {
         width: 100%;
     }
-    .contact-details p {
+    .contact-details  {
         font-family: 'Slabo 27px', serif; 
+        text-transform: capitalize;
     }
     .contact-container {
         width: 100%;
 
+    }
+    .card-social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .project-content-wrapper {
